@@ -1,11 +1,12 @@
-library flutterprogressmodeloverlay;
-
 import 'dart:ui';
-
 import 'package:flutter/material.dart';
 
+/// Wrap UI into a ProgressOverlayIndicator
+/// which can show ProgressOverlay.
 class ProgressOverlayIndicator extends StatelessWidget {
+  //Indicated if progress Indicator need to be display.
   final bool showProgressIndicator;
+  //User interface
   final Widget child;
 
   const ProgressOverlayIndicator(
